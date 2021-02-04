@@ -44,11 +44,18 @@ body {
     max-height: 60%
 }
 
+.rescuetext {
+    margin: 20px;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
 .mission {
     /* background-color: rgb(47,171, 232); */
     background-color: rgb(65, 182, 193);
     color: whitesmoke;
     font-family:'Noto Sans', sans-serif;
+    box-shadow: inset 0 0 10px;
 }
 
 .missionheader {
