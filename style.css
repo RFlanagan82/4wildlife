@@ -44,6 +44,22 @@ body {
     max-height: 60%
 }
 
+.mission {
+    /* background-color: rgb(47,171, 232); */
+    background-color: rgb(65, 182, 193);
+    color: whitesmoke;
+    font-family:'Noto Sans', sans-serif;
+}
+
+.missionheader {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Media Queries ===================================*/
+
 @media only screen and (max-width: 1335px) {
 #logo {
     position: absolute;
