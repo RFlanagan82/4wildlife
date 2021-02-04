@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+.menuitem {
+    margin-top: 25px;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 20px;
+}
+
+.brand-logo {
+    position: relative; top: -35px;
+}
