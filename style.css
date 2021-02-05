@@ -1,129 +1,131 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    background-color: whitesmoke;
+  background-color: whitesmoke;
 }
 
 .menuitem {
-    margin-top: 25px;
-    font-family: 'Noto Sans', sans-serif;
-    font-size: 20px;
+  margin-top: 25px;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 20px;
 }
 
 .brand-logo {
-    position: relative; top: -35px;
-}
-
-a.navlinks {
-
+  position: relative;
+  top: -35px;
 }
 
 .headertext {
-    font-family: 'Cantarell', sans-serif;
-    /* font-family: 'Noto Sans', sans-serif; */
-    text-align: center;
-    margin-top: 40px;
-    margin-bottom: 10px;
+  font-family: "Cantarell", sans-serif;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 10px;
 }
 
 .index-hero {
-    background-image: url(/assets/Snow-Leopard-Blue-lenses-2.png);
-    height:400px;
-    margin-top: 20px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
+  background-image: url(/assets/Snow-Leopard-Blue-lenses-2.png);
+  height: 400px;
+  margin-top: 20px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
 #logo {
-    position: absolute;
-    top: 95%;
-    left: 25%;
-    transform: translate(-140%, -90%);
-    max-width: 60%;
-    max-height: 60%
+  position: absolute;
+  top: 95%;
+  left: 25%;
+  transform: translate(-140%, -90%);
+  max-width: 60%;
+  max-height: 60%;
 }
 
 .rescuediv {
-    margin-top: 15px;
-    margin-bottom: 40px;
+  margin-top: 15px;
+  margin-bottom: 40px;
 }
 
 a.rescuetext {
-    font-weight: bolder;
-    font-size: 18px;
-    font-family: 'Cantarell', sans-serif;
-    color: rgb(8,116,199);
-    font-size: 26px;
+  font-weight: bolder;
+  font-size: 18px;
+  font-family: "Cantarell", sans-serif;
+  color: rgb(8, 116, 199);
+  font-size: 26px;
 }
 
 .mission {
-    background-color: rgb(17, 151, 161);
-    color: whitesmoke;
-    box-shadow: inset 0 0 5px;
+  background-color: rgb(17, 151, 161);
+  color: whitesmoke;
+  box-shadow: inset 0 0 5px;
 }
 
 .missionheader {
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Cantarell', sans-serif;
-    padding: 15px;
-    font-weight: bold;
-    font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Cantarell", sans-serif;
+  padding: 5px;
+  font-weight: bold;
+  font-size: 40px;
 }
 
 .missiontext {
-    font-family: 'Noto Sans', sans-serif;
-    font-size: 20px
+  font-family: "Noto Sans", sans-serif;
+  font-size: 18px;
+}
+
+.design-header {
+    color: black;
+    padding: 20px;
+    font-size: 40px
 }
 
 
 /* Media Queries ===================================*/
 
 @media only screen and (max-width: 1335px) {
-#logo {
+  #logo {
     position: absolute;
     top: 100%;
     left: 30%;
     transform: translate(-140%, -90%);
     max-width: 40%;
-    max-height: 40%
-}
+    max-height: 40%;
+  }
 }
 
 @media only screen and (max-width: 830px) {
-#logo {
+  #logo {
     position: absolute;
     top: 100%;
     left: 40%;
     transform: translate(-140%, -90%);
     max-width: 40%;
-    max-height: 40%
-}
+    max-height: 40%;
+  }
 }
 
 @media only screen and (max-width: 560px) {
-#logo {
+  #logo {
     position: absolute;
     top: 100%;
     left: 40%;
     transform: translate(-140%, -90%);
     max-width: 30%;
-    max-height: 30%
-}
+    max-height: 30%;
+  }
 
-.index-hero {
+  .index-hero {
     max-width: 100%;
     max-height: 80%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-}
+  }
 }
