@@ -95,6 +95,11 @@ a.rescuetext {
   color: white;
   font-size: 20px;
 }
+
+#notifybtn {
+font-size: 20px;
+}
+
 .contact-us {
   background-color: rgb(68, 73, 79);
   color: rgb(30, 212, 224);
