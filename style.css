@@ -87,8 +87,8 @@ a.rescuetext {
 }
 
 .borderdiv {
-  padding-top: 10px;
-  background-color: rgb(64, 182, 192);
+  padding-top: 5px;
+  background-color: rgb(178,235,242);
 }
 
 .input-field [type=text],[type=email] {
@@ -98,13 +98,53 @@ a.rescuetext {
 
 #notifybtn {
 font-size: 20px;
+background-color: rgb(178,235,242);
+color: darkslategray
 }
 
 .contact-us {
   background-color: rgb(68, 73, 79);
-  color: rgb(30, 212, 224);
+  color: rgb(178,235,242);
   font-family: "Noto Sans", sans-serif;
   font-size: 44px;
+}
+
+.products {
+  border: solid;
+  border-width: thin;
+  padding: 75px;
+  background-color: rgb(245,245,245);
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.productsheader {
+  font-size: 50px;
+  margin-top: 10px;
+}
+
+hr {
+  width: 15%;
+  margin: 0 auto;
+  border-color: #41b6c1;
+  margin-bottom: 30px;
+}
+
+.productstext {
+  font-size: 18px;
+  margin-bottom: 35px;
+}
+
+.bulletitem {
+  font-size: 20px;
+}
+
+.fa-check {
+  color:rgb(17, 151, 161);
+}
+
+.page-footer {
+  background-color: rgb(33,33,33);
 }
 
 
