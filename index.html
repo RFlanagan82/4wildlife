@@ -58,12 +58,12 @@
 
     <h4 class="headertext">Save Wildlife, Live Boldly.</h4>
     <div class="index-hero snow_leopard">
-      <img id="logo" alt="logo image" src="./assets/4WL_Colors.png" />
+      <!-- <img id="logo" alt="logo image" src="./assets/4WL_Colors.png" /> -->
     </div>
 
-    <div class="rescuediv center-align">
+    <!-- <div class="rescuediv center-align">
       <a href="#" class="rescuetext">***Help Save the Snow Leopard Today***</a>
-    </div>
+    </div> -->
 
     <div class="col s12 m7">
       <div class="card horizontal">
@@ -211,12 +211,13 @@
                   >
                     <div class="row">
                       <div class="input-field col s6">
-                        <input id="first_name" name="first name" type="text" />
-                        <label for="first_name">First Name</label>
+                        <input id="first_name" name="Full name" type="text" />
+                        <label for="full_name">Full Name</label>
                       </div>
                       <div class="input-field col s6">
-                        <input id="last_name" name="last name" type="text" />
-                        <label for="last_name">Last Name</label>
+                        <input id="phone" name="phone number" type="text" />
+                        <label for="phone">Phone Number</label>
+                        <span class="helper-text grey-text" data-error="wrong" data-success="right">Please include area code.</span>
                       </div>
                     </div>
                     <div class="row">
@@ -230,7 +231,6 @@
                         class="waves-effect waves-light btn-large"
                         type="submit"
                         name="action"
-                        target="_blank"
                         id= "notifybtn"
                       >
                         Notify Me!
@@ -305,5 +305,6 @@
         $(".sidenav").sidenav();
       });
     </script>
+    <script src="app.js"></script>
   </body>
 </html>
